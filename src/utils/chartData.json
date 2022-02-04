@@ -1,10 +1,10 @@
 [
   {
-      "product": "Chicken",
+      "product": "produktiv",
       "share": 0.2
   },
   {
-      "product": "Pork",
+      "product": "Nicht prodcktiv",
       "share": 0.2
   }
 ]

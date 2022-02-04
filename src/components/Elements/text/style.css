@@ -46,3 +46,6 @@ p.para1{
     margin-top: 5px;
     text-align: center;
 }
+.align-right{
+    text-align: right;
+}

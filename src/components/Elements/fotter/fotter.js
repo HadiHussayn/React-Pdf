@@ -12,6 +12,7 @@ var date =
         <>
         <div className="fotter-root">
             <Text text={date} variant="para1"></Text>
+            <Text text="10035858_202111019140448.ram" variant="para1" ></Text>
         </div>
         </>
     )
