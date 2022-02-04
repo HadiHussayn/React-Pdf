@@ -19,13 +19,7 @@ import Input from "../../components/Elements/Inputs/Input";
 import Text from "../../components/Elements/text/Text";
 import Hr from "../../components/Elements/hr/hr";
 import TempletHeader from "../../components/Elements/header/templetheader";
-var myCurrentDate = new Date();
-var date =
-  myCurrentDate.getFullYear() +
-  "-" +
-  (myCurrentDate.getMonth() + 1) +
-  "-" +
-  myCurrentDate.getDate();
+import Fotter from "../../components/Elements/fotter/fotter";
 
 function LayoutSample() {
   const [values, setValues] = useState({});
@@ -431,7 +425,7 @@ function LayoutSample() {
                 variant="para1"
               ></Text>
               <Table data={errorOverView} width="100%" />
-              {date}
+              <Fotter></Fotter>
             </div>
           </div>
         </PDFExport>
