@@ -17,7 +17,6 @@ import { useRef, useState } from "react";
 import Table from "../../components/Elements/Table/Table";
 import Input from "../../components/Elements/Inputs/Input";
 import Text from "../../components/Elements/text/Text";
-import Hr from "../../components/Elements/hr/hr";
 import TempletHeader from "../../components/Elements/header/templetheader";
 import Fotter from "../../components/Elements/fotter/fotter";
 
@@ -374,8 +373,8 @@ function LayoutSample() {
           ref={pdfExportComponent}
           paperSize="A4"
           repeatHeaders={true}
-          scale={0.6}
-          pageTemplate={() => <h1> template</h1>}
+          scale={0.4}
+        //   pageTemplate={() => <Fotter/>}
         >
           <div className={`pdf-page ${layoutSelection.value} ${widthh}`}>
             <div className="inner-page">
@@ -388,6 +387,7 @@ function LayoutSample() {
               ></Text>
 
               {/* generalOverTableData */}
+
               <Table data={generalOverview} width="100%" />
               <Text
                 text={KEYS.softwareOverview}
