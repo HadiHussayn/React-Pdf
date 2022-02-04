@@ -1,0 +1,15 @@
+.input-root {
+  border: none;
+  outline: none;
+}
+.h-30 {
+  height: 30px;
+}
+.block{
+  width: 95%;
+}
+.bg-color{
+  background: #70ad47;
+  border: none;
+  outline: none;
+}

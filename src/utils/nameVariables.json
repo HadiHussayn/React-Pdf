@@ -1,0 +1,12 @@
+{
+    "overview" : "over",
+    "ramDump" : "RamDump Overview [TimeStamp RamDump]",
+    "generalOverview" : "General Overview",
+    "softwareOverview": "Software Overview",
+    "softwareOverviewDesc": "The machine software is up to date!",
+    "cuttingheadOverview":"Cuttinghead Overview",
+    "cuttingheadOverviewDesc":"Overall conditions In this tab the health state of the cutting head is shown in overall conditions.",
+    "drawerCycle" : "Drawer cycles The table indicates how often and how long the protection glass drawer was removed",
+    "errorOverview" : "Error Overview",
+    "errorOverviewDesc" : "Overview about the top three of the last Errors of the machine"
+}
